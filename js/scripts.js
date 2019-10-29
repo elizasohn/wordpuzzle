@@ -15,7 +15,8 @@ console.log(s);
   var newSentence = s.join('');
 
   console.log(newSentence);
-  $("ul").append("<li>" + newSentence + "</li>");
+  $(".wordPuzzle").append("<h3>" + newSentence + "</h3>");
+  $("form.puzzle")[0].reset();
 
 
 
